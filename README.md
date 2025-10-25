@@ -25,7 +25,7 @@
 - **AI/ML:** OpenAI GPT, Fine-tuning, Text-to-Speech
 - **Cloud:** AWS Services (S3, Lambda, API Gateway)
 - **Storage:** AWS S3, DynamoDB
-
+ 
 ---
 
 ## 📁 Estrutura do Projeto / Project Structure
