@@ -166,7 +166,7 @@ Este projeto está em fase inicial de desenvolvimento. Funcionalidades estão se
 
 ## 📄 Licença
 
-Consulte o arquivo [COPYRIGHT.md](COPYRIGHT.md) para informações sobre uso e distribuição.
+Consulte o arquivo [LICENSE](LICENSE) para informações sobre uso e distribuição.
 
 ---
 
