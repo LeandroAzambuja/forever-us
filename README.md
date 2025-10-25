@@ -60,13 +60,13 @@ ForeverUs/
 ├── README.md
 ├── COPYRIGHT.md
 ├── .gitignore
-├── docs/               # Documentação
+├── docs/              # Documentação
 ├── src/               # Código-fonte
 │   ├── frontend/      # Interface web
 │   ├── backend/       # APIs e AWS Lambda
-│   └── ml/           # Machine Learning
+│   └── ml/            # Machine Learning
 ├── examples/          # Exemplos e mockups
-└── data/             # Dados de teste
+└── data/              # Dados de teste
 ```
 ## 🎯 Roadmap
 
