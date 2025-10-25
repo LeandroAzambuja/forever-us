@@ -5,7 +5,7 @@
 ## 🌟 Apresentação / Introduction
 
 **Forever Us** é um projeto de inteligência artificial criado para **preservar memórias pessoais e construir um legado digital duradouro**.  
-Desenvolvido por um grupo do **programa RESTART da Escola da Nuvem 2025**, o projeto combina tecnologia de ponta e valor humano, criando uma **ponte emocional entre o presente e o futuro**.  
+Desenvolvido por um grupo de alunos do **programa RESTART da Escola da Nuvem 2025**, o projeto combina tecnologia de ponta e valor humano, criando uma **ponte emocional entre o presente e o futuro**.  
 
 Imagine permitir que seus descendentes conversem com você, **ouvindo sua voz, vendo seu rosto e conhecendo seus pensamentos**.  
 Com o **Forever Us**, cada indivíduo pode criar uma **presença digital viva**, que evolui com o tempo e se adapta à nova geração.
