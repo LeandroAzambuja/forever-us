@@ -97,17 +97,13 @@ ForeverUs/
 
 ---
 
-### 📋 Guia de Contribuição Detalhado
+### 📋 Guia de Contribuição Detalhado / Detailed Contribution Guide
 
 #### Para Membros da Equipe:
 
-1. Clone o repositório
-git clone https://github.com/LeandroAzambuja/forever-us.git
-
+1. Clone o repositório (`git clone https://github.com/LeandroAzambuja/forever-us.git`)
 2. Crie uma nova branch para sua feature (`git checkout -b feature/nome-da-sua-feature`)
-
 3. Após fazer suas alterações (`git add . git commit -m "feat: adiciona nova funcionalidade X `)
-
 4. Envie para o repositório (`git push origin feature/nome-da-sua-feature`)
 
 ---
@@ -126,7 +122,7 @@ git clone https://github.com/LeandroAzambuja/forever-us.git
 
 ---
 
-## 🎯 Atribuições e Responsabilidades
+## 🎯 Atribuições e Responsabilidades / Duties and Responsibilities
 
 ### **Victor Romário (Tutor)**
 - Orientação técnica do projeto
@@ -172,7 +168,7 @@ git clone https://github.com/LeandroAzambuja/forever-us.git
 - Testes de usabilidade
 
 ---
-## ⚠️ Status do Projeto
+## ⚠️ Status do Projeto / Project Status
 
 **🚧 DESENVOLVIMENTO INICIAL**  
 Este projeto está em fase inicial de desenvolvimento. Funcionalidades estão sendo prototipadas e testadas.
