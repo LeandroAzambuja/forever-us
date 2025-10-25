@@ -147,7 +147,7 @@ Consulte o arquivo [COPYRIGHT.md](COPYRIGHT.md) para informações sobre uso e d
 
 ## 👥 Desenvolvido por / Developed by
 
-**Grupo RESTART** - Turma C9 SET - BRSAO 206 - Novem 2025  
+**Grupo RESTART** - Turma C9 SET - BRSAO 206
 **Escola da Nuvem** - Programa de Formação em Cloud Computing
 
 ---
