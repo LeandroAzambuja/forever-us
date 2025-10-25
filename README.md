@@ -30,20 +30,19 @@
 
 ## 📁 Estrutura do Projeto / Project Structure
 
+```
 ForeverUs/
 ├── README.md
 ├── COPYRIGHT.md
 ├── .gitignore
-├── docs/ # Documentação
-├── src/ # Código-fonte
-│ ├── frontend/ # Interface web
-│ ├── backend/ # APIs e AWS Lambda
-│ └── ml/ # Machine Learning
-├── examples/ # Exemplos e mockups
-└── data/ # Dados de teste
-
----
-
+├── docs/               # Documentação
+├── src/               # Código-fonte
+│   ├── frontend/      # Interface web
+│   ├── backend/       # APIs e AWS Lambda
+│   └── ml/           # Machine Learning
+├── examples/          # Exemplos e mockups
+└── data/             # Dados de teste
+```
 ## 🎯 Roadmap
 
 ### Fase 1 ✅
