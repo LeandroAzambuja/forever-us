@@ -1,109 +1,106 @@
-# forever-us
-Forever Us — IA de memórias pessoais | Grupo RESTART - Escola da Nuvem 2025 (Open Source)
+# Forever Us  
+### Personal Memory AI  
+#### Grupo RESTART — Escola da Nuvem 2025
 
-# Forever Us – IA de Memórias Pessoais / Forever Us – Personal Memory AI
+---
 
 ## 🌟 Apresentação / Introduction
 
 **Forever Us** é um projeto de inteligência artificial criado para **preservar memórias pessoais e construir um legado digital duradouro**.  
-O projeto é desenvolvido por um grupo do **programa RESTART da Escola da Nuvem 2025**, como parte de um desafio de inovação em tecnologia e nuvem.
-
-Nosso protótipo permite que uma IA converse com base nas informações fornecidas pelo usuário — suas histórias, valores e experiências — criando uma **ponte emocional entre o presente e o futuro**.  
+Desenvolvido por um grupo do **programa RESTART da Escola da Nuvem 2025**, o projeto combina **tecnologia de ponta e valor humano**, criando uma ponte emocional entre o presente e o futuro.
 
 Imagine permitir que seus descendentes conversem com você, **ouvindo sua voz, vendo seu rosto e conhecendo seus pensamentos**.  
-Isso é o **Forever Us**: **uma presença que atravessa gerações.**
+Com o **Forever Us**, cada indivíduo pode criar uma **presença digital viva**, que evolui com o tempo e se adapta à nova geração.
 
 ---
 
 ## 🎯 Objetivo do MVP / MVP Goal
 
-O MVP (mínimo produto viável) tem como objetivo demonstrar a base do conceito:
+O **MVP (mínimo produto viável)** tem como objetivo **demonstrar a base do conceito**:
 
-- Criar uma **LLM personalizada** com informações do usuário (nome, valores, memórias e registros de vida).  
+- Criar uma **LLM personalizada** com informações fornecidas pelo usuário (nome, valores, memórias, registros de vida).  
 - Desenvolver uma **interface web simples e intuitiva**, onde o usuário interage com sua IA pessoal.  
-- Utilizar serviços da **AWS**, aproveitando **créditos disponibilizados pelo programa RESTART**, para desenvolver o protótipo com liberdade e escala.  
+- Utilizar **créditos da AWS via programa RESTART** para hospedar o protótipo de forma escalável.  
 
-Serviços previstos:
-- **Amazon S3** (armazenamento de dados e mídia)  
-- **AWS Lambda / EC2** (execução e processamento de IA)  
-- **Amazon Bedrock** (integração de LLMs)  
-- **API Gateway** (conexão entre front e backend)  
+**Serviços previstos:**
+- **Amazon S3**: armazenamento de dados e mídias.  
+- **AWS Lambda / EC2**: processamento e execução de IA.  
+- **Amazon Bedrock**: integração com LLMs.  
+- **API Gateway**: conexão entre front e backend.  
 
 ---
 
-## 💡 Evolução Contínua / Continuous Evolution
+## 💡 Funcionalidades Plus / Advanced Features
 
-O **Forever Us** é um projeto em constante evolução.  
-A cada nova interação e aprendizado, a IA se torna mais próxima e humana.  
+O **Forever Us** é um projeto em evolução contínua. Entre as funcionalidades avançadas previstas:
 
-Entre as próximas funcionalidades em estudo:
+- **Avatar digital realista**: geração de imagem e animação facial com IA.  
+- **Voz personalizada**: síntese de fala baseada em gravações do usuário, permitindo interação com tom, entonação e idioma de escolha.  
+- **Integração com assistentes pessoais**: Alexa, Google Home, Smart TVs, gadgets domésticos.  
+- **Diário em vídeo**: armazenamento contínuo de vídeos pessoais, capturando histórias, reações e interações cotidianas.  
+- **Aprendizado de máquina avançado**:  
+  - Extração de informações e padrões de comportamento a partir de **vídeos em nuvem** (Google Fotos, OneDrive, Dropbox, iCloud).  
+  - Processamento de **livros, monografias, e-mails e documentos** do usuário.  
+  - Reconhecimento de interações familiares, nomes de filhos, netos e eventos importantes.  
+  - Evolução do modelo com cada nova informação, mantendo consistência e personalidade do usuário.  
+- **Aprendizado contínuo e adaptação**: a IA aprende com novas experiências e se mantém atualizada, refletindo a personalidade do usuário ao longo do tempo.
 
-- **Integração com assistentes pessoais** (como Alexa, Google Home, e futuros dispositivos inteligentes), permitindo que descendentes conversem com a IA de seus familiares.  
-- **Avatar digital e voz realista**, simulando o rosto e a entonação da pessoa.  
-- **Diário em vídeo**, com gravações que alimentam o modelo de forma contínua.  
-- **Aprendizado vivo**, com adaptação a novos contextos — como reconhecer o nome de netos, bisnetos ou eventos familiares futuros.  
+> Em resumo: o **Forever Us** nunca para de crescer, assim como a história humana que o alimenta.
 
-Em resumo: o Forever Us **nunca para de crescer**, assim como a história humana que o alimenta.
+---
+
+## 🤖 Como Funciona / How It Works
+
+1. **Coleta de dados pessoais**  
+   - Textos, livros, monografias, e-mails, vídeos e áudios.  
+2. **Processamento de dados**  
+   - Aplicação de técnicas de **NLP** (Processamento de Linguagem Natural) e **ML** (Machine Learning).  
+3. **Treinamento da LLM personalizada**  
+   - Criação de um modelo que compreende valores, experiências e personalidade do usuário.  
+4. **Interação**  
+   - Usuário ou descendentes interagem com a IA através da **interface web**, assistentes pessoais ou dispositivos integrados.  
+5. **Aprendizado contínuo**  
+   - Novos dados alimentam o modelo, garantindo evolução e fidelidade à personalidade do usuário.
 
 ---
 
 ## 🤝 Como contribuir / How to Contribute
 
-Este é um projeto **Open Source**, desenvolvido em espírito colaborativo.  
-Mesmo quem não programa pode participar com ideias, sugestões e criatividade.
+Este projeto **pode se tornar Open Source** quando o protótipo estiver estável, permitindo contribuições externas e colaboração ampla.  
 
 **Você pode contribuir com:**
-- Documentação e conteúdo;  
-- Ideias para evolução do sistema;  
-- Testes e feedback do protótipo;  
+- Documentação e conteúdo.  
+- Ideias para evolução do sistema.  
+- Testes e feedback do protótipo.  
 - Design de interface ou criação visual.
 
 **Para desenvolvedores:**
-- Faça um **fork** do repositório;  
-- Crie um **branch** para sua funcionalidade;  
-- Envie um **pull request** com uma descrição clara das mudanças.  
+- Faça um **fork** do repositório.  
+- Crie um **branch** para sua funcionalidade.  
+- Envie um **pull request** com uma descrição clara das mudanças.
 
 Exemplo de commits:
-- `Adiciona README bilíngue`  
-- `Cria integração com AWS Lambda`  
-- `Adiciona suporte à voz do usuário`  
+- `Adiciona integração com AWS Lambda`  
+- `Cria interface web básica`  
+- `Adiciona suporte a voz personalizada`  
 
 ---
 
-## 🔄 Status do Projeto / Project Status
+## 👥 Integrantes do Grupo / Team Members
 
-> Em andamento – O protótipo está sendo desenvolvido na AWS com foco em interação e personalização.  
-> O roadmap será atualizado conforme novas ideias surgirem e forem testadas em laboratório.
+- **Leandro Cavalcante Azambuja** — Coordenação do projeto, arquitetura do MVP, integração AWS  
+- **Vitor Gabriel Dos Santos Pires** — Desenvolvimento front-end e interface web  
+- **Leandro Cavalcante Azambuja / Arnaldo Jorge Guimarães** — Machine Learning e processamento de dados  
+- **Helio José Da Silva Filho Pinheiro** — Documentação, social media e divulgação  
+- **Renato Herculano Barbosa** — UX/UI e design visual  
 
----
-
-## 🧠 Origem e Propósito / Origin and Purpose
-
-O **Forever Us** nasceu dentro do **programa RESTART da Escola da Nuvem**, com o propósito de unir inovação tecnológica e emoção humana.  
-Mais do que um projeto técnico, é uma forma de **eternizar histórias, conexões e sentimentos**.
+> O projeto é aberto à colaboração — contribuições externas são bem-vindas!
 
 ---
 
-## 🚀 Links úteis / Useful Links
+## 📣 Exemplos de Postagens / Social Media Posts
 
-- [LinkedIn Project Page](#) — atualizações e postagens sobre o andamento do projeto  
-- [GitHub Repository](#) — código aberto e documentação  
-
----
-
-## 💫 Forever Us
-
-**Hoje**, um protótipo de IA.  
-**Amanhã**, uma ponte eterna entre gerações.  
-
----
-
-### 🇺🇸 English Summary
-
-**Forever Us** is a personal memory AI project designed to preserve human stories, voices, and identities for future generations.  
-Developed within the **RESTART Program (Escola da Nuvem 2025)**, it uses AWS cloud services and machine learning to create a **digital version of your personality**, capable of evolving and interacting over time.
-
-With Forever Us, your descendants will be able to **see you, hear you, and talk to you** — long after you're gone.  
-This project aims to turn memory into connection, and legacy into life.
-
-
+```md
+- **LinkedIn:** "Estamos desenvolvendo o **Forever Us**, uma IA que preserva memórias e cria um legado digital. Projeto do programa RESTART da Escola da Nuvem 2025. Saiba mais no nosso GitHub!"  
+- **GitHub Updates:** "Protótipo inicial da LLM personalizada implementado, interface web básica concluída, integração com AWS em progresso."  
+- **Exemplo visual:** mockup de avatar digital + frase “Hoje um protótipo, amanhã uma ponte entre gerações”.
