@@ -25,7 +25,7 @@
 - **AI/ML:** OpenAI GPT, Fine-tuning, Text-to-Speech
 - **Cloud:** AWS Services (S3, Lambda, API Gateway)
 - **Storage:** AWS S3, DynamoDB
-- - **Amazon Bedrock**: integração de LLMs.
+- **Amazon Bedrock**: integração de LLMs
  
 ---
 
