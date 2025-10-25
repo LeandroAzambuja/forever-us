@@ -72,6 +72,66 @@ ForeverUs/
 
 ---
 
+## 👥 Integrantes do Grupo / Team Members
+
+### **🎓 Tutor / Orientador**
+**Victor Romário** — Orientação técnica e metodológica
+
+### **💻 Equipe de Desenvolvimento**
+**Leandro Cavalcante Azambuja** — Coordenação do projeto, arquitetura do MVP, integração AWS  
+**Vitor Gabriel Dos Santos Pires** — Desenvolvimento front-end e interface web  
+**Arnaldo Jorge Guimarães** — Machine Learning e processamento de dados  
+**Helio José Da Silva Filho Pinheiro** — Documentação, social media e divulgação  
+**Renato Herculano Barbosa** — UX/UI e design visual
+
+---
+
+## 🎯 Atribuições e Responsabilidades
+
+### **Victor Romário (Tutor)**
+- Orientação técnica do projeto
+- Revisão metodológica
+- Mentoria em cloud computing
+- Acompanhamento do desenvolvimento
+- Validação das entregas
+
+### **Leandro Cavalcante Azambuja** 
+- Arquitetura AWS (Lambda, S3, API Gateway)
+- Coordenação técnica do projeto
+- Integração entre componentes
+- Modelos de Machine Learning (LLM personalizada)
+- Gestão do repositório GitHub
+- Deploy e infraestrutura cloud
+
+### **Vitor Gabriel Dos Santos Pires**
+- Desenvolvimento da interface web (HTML/CSS/JavaScript)
+- Integração com APIs do backend
+- Experiência do usuário frontend
+- Responsividade e performance
+- Validação cross-browser
+
+### **Arnaldo Jorge Guimarães** 
+- Processamento e análise de dados
+- Fine-tuning de modelos de linguagem
+- Preparação de datasets
+- Otimização de modelos ML
+- Validação de resultados
+
+### **Helio José Da Silva Filho Pinheiro**
+- Documentação técnica e de usuário
+- Gestão de redes sociais e divulgação
+- Comunicação do projeto
+- Relatórios de progresso
+- Material de apresentação
+
+### **Renato Herculano Barbosa**
+- Design da interface (UI/UX)
+- Experiência visual do usuário
+- Protótipos e mockups
+- Design system e identidade visual
+- Testes de usabilidade
+
+---
 ## ⚠️ Status do Projeto
 
 **🚧 DESENVOLVIMENTO INICIAL**  
