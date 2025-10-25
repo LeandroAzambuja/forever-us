@@ -97,6 +97,25 @@ ForeverUs/
 
 ---
 
+### 📋 Guia de Contribuição Detalhado
+
+#### Para Membros da Equipe:
+
+# Clone o repositório
+git clone https://github.com/LeandroAzambuja/forever-us.git
+
+# Crie uma nova branch para sua feature
+git checkout -b feature/nome-da-sua-feature
+
+# Após fazer suas alterações
+git add .
+git commit -m "feat: adiciona nova funcionalidade X"
+
+# Envie para o repositório
+git push origin feature/nome-da-sua-feature
+
+---
+
 ## 👥 Integrantes do Grupo / Team Members
 
 ### **🎓 Tutor / Orientador**
