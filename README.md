@@ -2,9 +2,14 @@
 
 ## 🌟 Sobre o Projeto / About the Project
 
-**Forever Us** é uma inteligência artificial revolucionária criada para preservar memórias pessoais e construir um legado digital duradouro. Desenvolvido por alunos do programa RESTART da Escola da Nuvem (Turma C9 SET - BRSAO 206 - Novem 2025), o projeto combina tecnologia de ponta com valor humano, criando uma ponte emocional entre presente e futuro.
+**Forever Us** é uma inteligência artificial revolucionária criada para preservar memórias pessoais e construir um legado digital duradouro. Desenvolvido por alunos do programa RESTART da Escola da Nuvem (Turma C9 SET - BRSAO 206), o projeto combina tecnologia de ponta com valor humano, criando uma ponte emocional entre presente e futuro.
 
-**Forever Us** is a revolutionary artificial intelligence created to preserve personal memories and build a lasting digital legacy. Developed by students of the RESTART program at Escola da Nuvem (Class C9 SET - BRSAO 206 - Novem 2025), the project combines cutting-edge technology with human values, creating an emotional bridge between present and future.
+Imagine permitir que seus descendentes conversem com você, ouvindo sua voz, vendo seu rosto e conhecendo seus pensamentos. Com o Forever Us, cada indivíduo pode criar uma presença digital viva, que evolui com o tempo e se adapta à nova geração.
+
+
+**Forever Us** is a revolutionary artificial intelligence created to preserve personal memories and build a lasting digital legacy. Developed by students of the RESTART program at Escola da Nuvem (Class C9 SET - BRSAO 206), the project combines cutting-edge technology with human values, creating an emotional bridge between present and future.
+
+Imagine allowing your descendants to converse with you, hearing your voice, seeing your face, and knowing your thoughts. With Forever Us, each individual can create a living digital presence that evolves over time and adapts to the next generation.
 
 ---
 
@@ -15,6 +20,17 @@
 - **🔊 Síntese de Voz Realista** - Recria padrões vocais e entonações características
 - **💭 Modelo de Linguagem Personalizado** - Aprende e replica padrões de pensamento, humor e valores
 - **☁️ Arquitetura Serverless** - Escalável e eficiente usando AWS Lambda
+
+## Funcionalidades Avançadas / Advanced Features
+  - ** Diário em Vídeo: Armazenamento contínuo de vídeos pessoais, capturando histórias e interações cotidianas.
+  - ** Integração com Assistentes Pessoais: Conexão com Alexa, Google Home, Smart TVs, e gadgets domésticos.
+  - ** Aprendizado Avançado: Extração de padrões de comportamento de mídias em nuvem (Google Fotos, OneDrive, etc.), processamento de livros, monografias, e-mails, e reconhecimento de interações familiares/eventos.
+
+---
+
+## 🎯 Objetivo do MVP / MVP Objective
+
+**O MVP (Mínimo Produto Viável) tem como objetivo demonstrar a base do conceito, focando em: Criar uma LLM personalizada com informações fornecidas pelo usuário; Desenvolver uma interface web simples e intuitiva; Utilizar créditos da AWS via programa RESTART para hospedar o protótipo de forma escalável.
 
 ---
 
