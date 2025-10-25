@@ -101,17 +101,17 @@ ForeverUs/
 
 #### Para Membros da Equipe:
 
-# Clone o repositório
+1. **Clone o repositório
 git clone https://github.com/LeandroAzambuja/forever-us.git
 
-# Crie uma nova branch para sua feature
+2. **Crie uma nova branch para sua feature
 git checkout -b feature/nome-da-sua-feature
 
-# Após fazer suas alterações
+3. **Após fazer suas alterações
 git add .
 git commit -m "feat: adiciona nova funcionalidade X"
 
-# Envie para o repositório
+4. **Envie para o repositório
 git push origin feature/nome-da-sua-feature
 
 ---
