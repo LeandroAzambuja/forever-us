@@ -6,21 +6,46 @@ __pycache__/
 .Python
 env/
 venv/
+.venv
+pip-log.txt
 
 # Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+yarn.lock
 
-# AWS/Credenciais
+# AWS e Credenciais
 .env
 .aws/
 credentials
+config
+*.pem
+*.key
 
-# Arquivos de sistema
+# IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Logs
 *.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de build/dist
+dist/
+build/
+*.tar.gz
+*.zip
