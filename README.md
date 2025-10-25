@@ -22,9 +22,9 @@ Imagine allowing your descendants to converse with you, hearing your voice, seei
 - **☁️ Arquitetura Serverless** - Escalável e eficiente usando AWS Lambda
 
 ## Funcionalidades Avançadas / Advanced Features
-  - ** Diário em Vídeo: Armazenamento contínuo de vídeos pessoais, capturando histórias e interações cotidianas.
-  - ** Integração com Assistentes Pessoais: Conexão com Alexa, Google Home, Smart TVs, e gadgets domésticos.
-  - ** Aprendizado Avançado: Extração de padrões de comportamento de mídias em nuvem (Google Fotos, OneDrive, etc.), processamento de livros, monografias, e-mails, e reconhecimento de interações familiares/eventos.
+  - **🎥 Diário em Vídeo: Armazenamento contínuo de vídeos pessoais, capturando histórias e interações cotidianas.
+  - **🗣️ Integração com Assistentes Pessoais: Conexão com Alexa, Google Home, Smart TVs, e gadgets domésticos.
+  - **🧠 Aprendizado Avançado: Extração de padrões de comportamento de mídias em nuvem (Google Fotos, OneDrive, etc.), processamento de livros, monografias, e-mails, e reconhecimento de interações familiares/eventos.
 
 ---
 
@@ -33,7 +33,15 @@ Imagine allowing your descendants to converse with you, hearing your voice, seei
 **O MVP (Mínimo Produto Viável) tem como objetivo demonstrar a base do conceito, focando em: Criar uma LLM personalizada com informações fornecidas pelo usuário; Desenvolver uma interface web simples e intuitiva; Utilizar créditos da AWS via programa RESTART para hospedar o protótipo de forma escalável.
 
 ---
+## ⚙️ Como Funciona / How it Works
 
+- **📥 Coleta de Dados Pessoais (Textos, vídeos, áudios, etc.). 
+- **🔬 Processamento de Dados (NLP/ML).
+- **💪 Treinamento da LLM Personalizada.
+- **💬 Interação.
+- **🌳Aprendizado Contínuo.
+
+---
 ## 🛠 Tecnologias / Technologies
 
 - **Frontend:** HTML5, CSS3, JavaScript, React
