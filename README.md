@@ -96,8 +96,8 @@ ForeverUs/
 - Validação das entregas
 
 ### **Leandro Cavalcante Azambuja** 
-- Arquitetura AWS (Lambda, S3, API Gateway)
 - Coordenação técnica do projeto
+- Arquitetura AWS (Lambda, S3, API Gateway)
 - Integração entre componentes
 - Modelos de Machine Learning (LLM personalizada)
 - Gestão do repositório GitHub
