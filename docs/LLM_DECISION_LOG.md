@@ -13,6 +13,14 @@ Para atingir esse propósito, é essencial escolher um **Modelo de Linguagem (LL
 Após análise comparativa e prática, foram considerados três modelos de código aberto: **Mistral 7B**, **Phi-3 Mini (3.8 B)** e **Gemma 2B/7B**.  
 A decisão final foi pelo **Mistral 7B**, em virtude de seu desempenho superior e equilíbrio entre poder de raciocínio e liberdade de uso.
 
+
+The **Forever Us** project aims to create a digital legacy system capable of representing and preserving aspects of human personality through natural language interactions.
+To achieve this goal, it is essential to choose a **Language Model (LLM)** that offers cognitive robustness, narrative consistency, and room for long-term technical evolution.
+
+After comparative and practical analysis, three open-source models were considered: **Mistral 7B**, **Phi-3 Mini (3.8 B)**, and **Gemma 2B/7B**.
+The final decision was **Mistral 7B** due to its superior performance and balance of reasoning power and freedom of use.
+
+
 ---
 
 ## Modelos Avaliados / Models Evaluated
@@ -61,7 +69,7 @@ O Phi-3 Mini também é acessível, mas voltado a instruções curtas. O Gemma 7
 O **Phi-3 Mini** vence em contexto bruto (até 128 K tokens), mas o **Mistral 7B** compensa com **melhor compressão de contexto e consistência narrativa**: mesmo com 8 K tokens, mantém coerência de diálogo superior.  
 Além disso, há versões otimizadas e quantizadas do Mistral que suportam contextos ampliados via extensão ou memória externa (RAG), atendendo bem o caso de uso do *Forever Us*.
 
-### Adequação à prototipagem
+### Adequação à prototipagem / Suitability for prototyping
 O Mistral 7B equilibra custo e desempenho, permitindo criar protótipos funcionais e, ao mesmo tempo, manter o mesmo modelo na versão produtiva.  
 Essa continuidade técnica evita migrações entre versões e reforça a maturidade arquitetural do projeto.  
 O Phi-3 Mini continua sendo uma excelente ferramenta de apoio para testes rápidos, mas o Mistral será a base de longo prazo.
