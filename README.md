@@ -73,7 +73,7 @@ ForeverUs/
 ### Fase 1 ✅
 - [x] Conceito e documentação
 - [x] Estrutura do repositório
-- [ ] Protótipo de LLM personalizada
+- [x] Protótipo de LLM personalizada
 
 ### Fase 2 🚧
 - [ ] Integração com AWS Lambda
