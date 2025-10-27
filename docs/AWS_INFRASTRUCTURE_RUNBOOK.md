@@ -93,13 +93,21 @@ Pode ser substituído por armazenamento simples no S3 durante o MVP.
 
 ### 🔸 Fluxo Simplificado do MVP
 [Usuário]
+
 ↓
+
 [Frontend - S3]
+
 ↓
+
 [Elastic Beanstalk (API Backend)]
+
 ↓
+
 [EC2 - Mistral 7B]
+
 ↓
+
 [Resposta → Frontend]
 
 ---
@@ -195,15 +203,25 @@ Permite upgrade futuro com fine-tuning e integração nativa com APIs AWS.
 ### 🔸 Fluxo da Arquitetura Completa
 
 [Usuário]
+
 ↓
+
 [CloudFront → S3 (Frontend)]
+
 ↓
+
 [API Gateway → Lambda / Beanstalk]
+
 ↓
+
 [SQS → ECS ou EC2 (Inferência LLM)]
+
 ↓
+
 [RDS + DynamoDB + S3 (Dados)]
+
 ↓
+
 [CloudWatch + Budgets + SNS (Monitoramento e Alertas)]
 
 
