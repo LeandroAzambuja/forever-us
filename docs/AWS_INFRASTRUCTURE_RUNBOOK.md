@@ -83,16 +83,27 @@
 
 [Usuário]
 ↓
+
 [S3 + CloudFront] → Frontend Estático
+
 ↓
+
 [Elastic Beanstalk] → Backend (API + Aplicação)
+
 ↓
+
 [Lambda] → Funções Específicas
+
 ↓
+
 [EC2 GPU Spot] → LLM Mistral 7B
+
 ↓
+
 [EBS] → Persistência do Modelo
+
 ↓
+
 [CloudWatch] → Monitoramento & Budgets
 
 
