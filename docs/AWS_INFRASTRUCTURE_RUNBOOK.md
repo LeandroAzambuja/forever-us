@@ -92,7 +92,7 @@ Pode ser substituído por armazenamento simples no S3 durante o MVP.
 ---
 
 ### 🔸 Fluxo Simplificado do MVP
-```text
+
 [Usuário]
    ↓
 [Frontend - S3]
@@ -102,3 +102,87 @@ Pode ser substituído por armazenamento simples no S3 durante o MVP.
 [EC2 - Mistral 7B]
    ↓
 [Resposta → Frontend]
+
+---
+Objetivo: Validar o funcionamento da LLM com simplicidade e custo reduzido.
+
+**2. Arquitetura Completa (Versão Futura do Projeto)**
+
+Essa fase será ativada após a validação do MVP, quando o projeto expandir para multimodalidade (voz, imagem e contexto persistente).
+
+2.1 AWS ECS (Elastic Container Service)
+
+Função:
+Orquestrar microserviços (voz, imagem, contexto, etc.).
+
+Justificativa:
+Proporciona escalabilidade e isolamento de funções sem múltiplas EC2s.
+Facilita manutenção e atualizações modulares.
+
+2.2 AWS RDS (Relational Database Service)
+
+Função:
+Armazenar dados estruturados (usuários, histórico e preferências).
+
+Justificativa:
+Banco relacional com backups automáticos e alta disponibilidade.
+Ideal para quando houver relações complexas entre usuários e contextos.
+
+2.3 AWS CloudFront
+
+Função:
+CDN para distribuição global do frontend hospedado no S3.
+
+Justificativa:
+Reduz latência e melhora performance em múltiplas regiões.
+
+2.4 AWS SQS (Simple Queue Service)
+
+Função:
+Enfileirar requisições de inferência para a LLM.
+
+Justificativa:
+Evita sobrecarga do backend e garante ordem no processamento das requisições.
+
+2.5 AWS SNS (Simple Notification Service)
+
+Função:
+Enviar notificações automáticas (e-mail, webhook, etc.).
+
+Justificativa:
+Facilita comunicação entre serviços e alertas operacionais.
+
+2.6 AWS IAM (Identity and Access Management)
+
+Função:
+Controlar permissões e papéis de cada serviço AWS.
+
+Justificativa:
+Garante segurança e o princípio do privilégio mínimo.
+
+2.7 AWS Secrets Manager
+
+Função:
+Armazenar chaves, tokens e segredos com segurança.
+
+Justificativa:
+Evita exposição de credenciais no código-fonte e facilita rotação de chaves.
+
+2.8 AWS Step Functions
+
+Função:
+Automatizar fluxos complexos (ligar EC2, processar, desligar, notificar).
+
+Justificativa:
+Permite criar rotinas automatizadas sem scripts externos, reduzindo erros humanos.
+
+2.9 AWS SageMaker (ou Amazon Bedrock)
+
+Função:
+Hospedar ou treinar versões otimizadas da LLM.
+
+Justificativa:
+Elimina a necessidade de gerenciar GPUs manualmente.
+Permite upgrade futuro com fine-tuning e integração nativa com APIs AWS.
+
+🔸 Fluxo da Arquitetura Completa
