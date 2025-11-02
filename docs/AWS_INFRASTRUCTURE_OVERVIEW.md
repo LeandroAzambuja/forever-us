@@ -5,6 +5,10 @@
 O **MVP do Forever Us** foi projetado para demonstrar a integração de uma **LLM (Large Language Model)** hospedada na **AWS**, com foco em **baixo custo**, **escalabilidade** e **simplicidade operacional**.  
 A arquitetura garante que o **frontend**, o **backend** e o **modelo de linguagem** se comuniquem de forma eficiente, segura e sem desperdício de recursos.
 
+
+The **Forever Us MVP** was designed to demonstrate the integration of a **Large Language Model (LLM)** hosted on **AWS**, focusing on **low cost**, **scalability**, and **operational simplicity**.
+The architecture ensures that the **frontend**, **backend**, and **language model** communicate efficiently, securely, and without wasting resources.
+
 ---
 
 ## 🧩 Estrutura da Arquitetura / Architecture Structure
@@ -52,7 +56,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🧠 LLM – Cérebro da Aplicação
+## 🧠 LLM – Cérebro da Aplicação / Application Brain
 
 **Serviço:** `Amazon Bedrock` (Modelo **Mistral 7B**)
 
@@ -64,7 +68,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🔍 Monitoramento e Custos
+## 🔍 Monitoramento e Custos / Monitoring and Costs
 
 **Serviços:** `Amazon CloudWatch` | `AWS Budgets`
 
@@ -75,7 +79,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 💰 Estratégia de Economia
+## 💰 Estratégia de Economia / Economic Strategy
 
 1. **A IA (Bedrock/EC2)** só é ligada durante os testes.  
 2. Após o uso, é desligada manualmente para evitar cobranças adicionais.  
@@ -98,7 +102,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 📊 Métricas Recomendadas
+## 📊 Métricas Recomendadas / Recommended Metrics
 
 ```
 - Disponibilidade da instância de IA (Bedrock/EC2)  
@@ -122,10 +126,16 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🧾 Conclusão
+## 🧾 Conclusão / Conclusion
 
 A arquitetura AWS do **Forever Us – MVP da LLM** foi construída com base em três pilares:
 **simplicidade, eficiência e economia**.  
 Ela demonstra que é possível integrar um modelo de linguagem robusto em um ambiente cloud de baixo custo, mantendo segurança, modularidade e possibilidade de expansão futura.
+
+
+The AWS architecture of **Forever Us – LLM MVP** was built on three pillars:
+**simplicity, efficiency, and cost-effectiveness**.
+It demonstrates that it is possible to integrate a robust language model into a low-cost cloud environment, while maintaining security, modularity, and the possibility of future expansion.
+
 
 > “Pequeno no custo, grande na ideia.” – Filosofia do MVP Forever Us  
