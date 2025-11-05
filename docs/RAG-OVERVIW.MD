@@ -37,9 +37,11 @@ Cada usuário do MVP terá um conjunto de **200 a 300 informações pessoais** e
 Esses dados serão armazenados de forma estruturada, em formato JSON, por exemplo:
 
 
-  { "id": 1, "text": "Eu nasci em Porto Alegre, no sul do Brasil." },
-  { "id": 2, "text": "Eu sou formado em Engenharia de Computação." },
-  { "id": 3, "text": "Eu gosto de trabalhar com segurança da informação e computação em nuvem." }
+{ "id": 1, "text": "Eu nasci em Porto Alegre, no sul do Brasil." },
+  
+{ "id": 2, "text": "Eu sou formado em Engenharia de Computação." },
+
+{ "id": 3, "text": "Eu gosto de trabalhar com segurança da informação e computação em nuvem." }
 
 
 ## FUNCIONAMENTO DO RAG / RAG WORKFLOW
