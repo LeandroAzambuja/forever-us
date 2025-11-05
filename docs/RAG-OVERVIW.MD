@@ -22,10 +22,10 @@ Cada pessoa deve ter uma “presença digital” única, baseada em suas própri
 
 Com o RAG, conseguimos:
 
-- **Reduzir custos** — não há necessidade de treinar ou ajustar modelos.  
-- **Manter flexibilidade** — as memórias podem ser atualizadas ou removidas a qualquer momento.  
-- **Separar contextos** — cada usuário pode ter seu próprio banco de memórias.  
-- **Gerar respostas mais humanas e contextualizadas** — baseadas em dados reais do indivíduo.  
+**Reduzir custos** — não há necessidade de treinar ou ajustar modelos.  
+**Manter flexibilidade** — as memórias podem ser atualizadas ou removidas a qualquer momento.  
+**Separar contextos** — cada usuário pode ter seu próprio banco de memórias.  
+**Gerar respostas mais humanas e contextualizadas** — baseadas em dados reais do indivíduo.  
 
 > O RAG é o elo entre o modelo genérico (Mistral 7B) e as informações pessoais armazenadas no projeto.
 
