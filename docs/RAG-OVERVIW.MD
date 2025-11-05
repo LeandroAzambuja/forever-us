@@ -36,12 +36,10 @@ Com o RAG, conseguimos:
 Cada usuário do MVP terá um conjunto de **200 a 300 informações pessoais** extraídas de um questionário, formando sua base de memórias.  
 Esses dados serão armazenados de forma estruturada, em formato JSON, por exemplo:
 
-```json
-[
+
   { "id": 1, "text": "Eu nasci em Porto Alegre, no sul do Brasil." },
   { "id": 2, "text": "Eu sou formado em Engenharia de Computação." },
   { "id": 3, "text": "Eu gosto de trabalhar com segurança da informação e computação em nuvem." }
-]
 
 
 ## FUNCIONAMENTO DO RAG / RAG WORKFLOW
