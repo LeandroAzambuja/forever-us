@@ -1,6 +1,6 @@
-# 🧠 Forever Us – Arquitetura AWS (MVP da LLM)
+# Forever Us – Arquitetura AWS (MVP da LLM)
 
-## 🌎 Visão Geral / Overview
+## Visão Geral / Overview
 
 O **MVP do Forever Us** foi projetado para demonstrar a integração de uma **LLM (Large Language Model)** hospedada na **AWS**, com foco em **baixo custo**, **escalabilidade** e **simplicidade operacional**.  
 A arquitetura garante que o **frontend**, o **backend** e o **modelo de linguagem** se comuniquem de forma eficiente, segura e sem desperdício de recursos.
@@ -11,7 +11,7 @@ The architecture ensures that the **frontend**, **backend**, and **language mode
 
 ---
 
-## 🧩 Estrutura da Arquitetura / Architecture Structure
+## Estrutura da Arquitetura / Architecture Structure
 
 ```
 [Usuário] 
@@ -31,7 +31,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🖥️ Frontend
+## Frontend
 
 **Serviços:** `Amazon S3` | `Amazon CloudFront`  
 
@@ -43,7 +43,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## ⚙️ Backend
+## Backend
 
 **Serviços:** `Amazon API Gateway` | `AWS Lambda` | `Amazon DynamoDB`
 
@@ -56,7 +56,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🧠 LLM – Cérebro da Aplicação / Application Brain
+## LLM – Cérebro da Aplicação / Application Brain
 
 **Serviço:** `Amazon Bedrock` (Modelo **Mistral 7B**)
 
@@ -68,7 +68,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🔍 Monitoramento e Custos / Monitoring and Costs
+## Monitoramento e Custos / Monitoring and Costs
 
 **Serviços:** `Amazon CloudWatch` | `AWS Budgets`
 
@@ -79,7 +79,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 💰 Estratégia de Economia / Economic Strategy
+## Estratégia de Economia / Economic Strategy
 
 1. **A IA (Bedrock/EC2)** só é ligada durante os testes.  
 2. Após o uso, é desligada manualmente para evitar cobranças adicionais.  
@@ -90,7 +90,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🔄 Fluxo de Comunicação / Data Flow
+## Fluxo de Comunicação / Data Flow
 
 ```
 1. O usuário acessa o site hospedado no **S3** (opcionalmente acelerado via **CloudFront**).  
@@ -114,7 +114,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🔮 Possíveis Extensões / Future Enhancements
+## Possíveis Extensões / Future Enhancements
 
 ```
 - Suporte a modelos multimodais (texto, voz, imagem)  
@@ -126,7 +126,7 @@ Essa topologia mostra o caminho completo de uma requisição — desde o acesso 
 
 ---
 
-## 🧾 Conclusão / Conclusion
+## Conclusão / Conclusion
 
 A arquitetura AWS do **Forever Us – MVP da LLM** foi construída com base em três pilares:
 **simplicidade, eficiência e economia**.  
