@@ -65,9 +65,9 @@ a pergunta original, formando o contexto enviado ao Mistral.
 O modelo Mistral 7B, hospedado no Amazon Bedrock, lê o contexto e gera a
 resposta final — personalizada, fiel às informações e dentro do tom definido.
 
-──────────────────────────────────────────────────────────────
-💬 EXEMPLO PRÁTICO / EXAMPLE
-──────────────────────────────────────────────────────────────
+
+## EXEMPLO PRÁTICO / EXAMPLE
+
 
 Memórias relevantes:
 • Eu nasci em 1985, em São Paulo.
@@ -87,9 +87,7 @@ Pergunta:
 Resposta esperada:
 > Eu me formei em Engenharia de Computação.
 
-──────────────────────────────────────────────────────────────
-🧭 INSTRUÇÕES PARA O MISTRAL / PROMPT DESIGN
-──────────────────────────────────────────────────────────────
+## INSTRUÇÕES PARA O MISTRAL / PROMPT DESIGN
 
 Você é uma inteligência artificial do projeto Forever Us.
 Responda como se fosse a própria pessoa cujas memórias estão descritas abaixo.
@@ -100,9 +98,7 @@ Responda sempre em primeira pessoa, de forma natural, empática e breve.
 Memórias relevantes: {{contexto recuperado}}
 Pergunta: {{mensagem do usuário}}
 
-──────────────────────────────────────────────────────────────
-☁️ INTEGRAÇÃO NA ARQUITETURA AWS / AWS INTEGRATION
-──────────────────────────────────────────────────────────────
+## INTEGRAÇÃO NA ARQUITETURA AWS / AWS INTEGRATION
 
 Usuário 
    → S3 (Frontend)
@@ -116,21 +112,20 @@ Usuário
 • Amazon Bedrock fornece o modelo Mistral 7B e o serviço de embeddings.  
 • DynamoDB ou OpenSearch armazena as memórias vetorizadas e seus textos originais.  
 
-──────────────────────────────────────────────────────────────
-📊 BENEFÍCIOS TÉCNICOS / TECHNICAL ADVANTAGES
-──────────────────────────────────────────────────────────────
 
-| Benefício              | Descrição |
-|------------------------|------------|
-| Escalabilidade         | Expansível para múltiplos usuários e memórias. |
-| Custo reduzido         | Nenhum treinamento, apenas inferência e busca. |
-| Flexibilidade           | Dados atualizáveis sem reconfigurar a IA. |
-| Segurança e privacidade | Cada usuário tem base isolada de contexto. |
-| Realismo interativo     | Respostas em 1ª pessoa, imersivas e coerentes. |
+## BENEFÍCIOS TÉCNICOS / TECHNICAL ADVANTAGES
 
-──────────────────────────────────────────────────────────────
-🎯 CONCLUSÃO / CONCLUSION
-──────────────────────────────────────────────────────────────
+|        Benefício        |                    Descrição                    |
+|-------------------------|-------------------------------------------------|
+| Escalabilidade          | Expansível para múltiplos usuários e memórias.  |
+| Custo reduzido          | Nenhum treinamento, apenas inferência e busca.  |
+| Flexibilidade           | Dados atualizáveis sem reconfigurar a IA.       |
+| Segurança e privacidade | Cada usuário tem base isolada de contexto.      |
+| Realismo interativo     | Respostas em 1ª pessoa, imersivas e coerentes.  |
+
+
+
+## CONCLUSÃO / CONCLUSION
 
 A adoção do RAG com o Mistral 7B é o passo essencial para transformar
 o MVP Forever Us em uma IA realmente personalizada e consciente de contexto —
@@ -141,19 +136,16 @@ Essa abordagem combina:
 • Economia operacional  
 • Impacto emocional real — o coração do projeto  
 
-✨ “Com o RAG, o Forever Us não apenas conversa — ele se lembra, como se fosse você.”
+“Com o RAG, o Forever Us não apenas conversa — ele se lembra, como se fosse você.”
 
-──────────────────────────────────────────────────────────────
-📁 LOCALIZAÇÃO DO DOCUMENTO / DOCUMENT LOCATION
-──────────────────────────────────────────────────────────────
+## LOCALIZAÇÃO DO DOCUMENTO / DOCUMENT LOCATION
 
 Este arquivo faz parte da documentação técnica do projeto:
 `/docs/rag-overview.md`
 
-──────────────────────────────────────────────────────────────
+
 FOREVER US – Preservando memórias, construindo legados.
 FOREVER US – Preserving memories, building legacies.
-──────────────────────────────────────────────────────────────
 
 
 
