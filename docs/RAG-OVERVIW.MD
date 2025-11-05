@@ -49,19 +49,19 @@ Esses dados serão armazenados de forma estruturada, em formato JSON, por exempl
 Essas informações são processadas e transformadas em vetores de significado (embeddings),
 que permitem ao sistema buscar as frases mais relevantes conforme a pergunta feita ao assistente.
 
-1️⃣ INGESTÃO DAS MEMÓRIAS  
+- **1️ INGESTÃO DAS MEMÓRIAS  
 As informações pessoais são convertidas em vetores (embeddings) e armazenadas
 em um banco vetorial, como Amazon OpenSearch ou DynamoDB.
 
-2️⃣ CONSULTA (RETRIEVAL)  
+- **2️ CONSULTA (RETRIEVAL)  
 Quando o usuário faz uma pergunta, o sistema localiza no banco as memórias
 semanticamente mais próximas da questão.
 
-3️⃣ MONTAGEM DO CONTEXTO  
+- **3️ MONTAGEM DO CONTEXTO  
 As memórias encontradas são agrupadas e inseridas em um prompt junto com
 a pergunta original, formando o contexto enviado ao Mistral.
 
-4️⃣ GERAÇÃO (GENERATION)  
+- **4️ GERAÇÃO (GENERATION)  
 O modelo Mistral 7B, hospedado no Amazon Bedrock, lê o contexto e gera a
 resposta final — personalizada, fiel às informações e dentro do tom definido.
 
