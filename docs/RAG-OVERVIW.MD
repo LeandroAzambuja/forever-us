@@ -43,9 +43,8 @@ Esses dados serão armazenados de forma estruturada, em formato JSON, por exempl
   { "id": 3, "text": "Eu gosto de trabalhar com segurança da informação e computação em nuvem." }
 ]
 
-──────────────────────────────────────────────────────────────
-🔄 FUNCIONAMENTO DO RAG / RAG WORKFLOW
-──────────────────────────────────────────────────────────────
+
+## FUNCIONAMENTO DO RAG / RAG WORKFLOW
 
 Essas informações são processadas e transformadas em vetores de significado (embeddings),
 que permitem ao sistema buscar as frases mais relevantes conforme a pergunta feita ao assistente.
