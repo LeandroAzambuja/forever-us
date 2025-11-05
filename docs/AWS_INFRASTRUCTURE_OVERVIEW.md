@@ -1,5 +1,9 @@
 # Forever Us – Arquitetura AWS (MVP da LLM)
 
+**Data:** 30/10/2025  
+**Autor:** Leandro C. Azambuja  
+**Projeto:** Forever Us – Sistema de Legado Digital e Simulação de Personalidade  
+
 ## Visão Geral / Overview
 
 O **MVP do Forever Us** foi projetado para demonstrar a integração de uma **LLM (Large Language Model)** hospedada na **AWS**, com foco em **baixo custo**, **escalabilidade** e **simplicidade operacional**.  
