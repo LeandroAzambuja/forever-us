@@ -1,5 +1,9 @@
 # Forever Us – Integração RAG com Mistral 7B
 
+**Data:** 05/11/2025  
+**Autor:** Leandro C. Azambuja  
+**Projeto:** Forever Us – Sistema de Legado Digital e Simulação de Personalidade 
+
 ## Sobre o Conceito / About the Concept
 
 O **RAG (Retrieval-Augmented Generation)** é uma abordagem moderna que permite combinar o poder de um modelo de linguagem com dados personalizados externos — chamados de **memórias** — sem precisar realizar treinamento direto no modelo.
